@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header__list {
+    display: flex;
+    gap: 60px;
+}
+
+.header__link {
+    list-style: none;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-left: 2em;
+}
+
+.header__button-secundary, .header__button {
+    text-decoration: none;
+
+}
+
+.header__button-secundary {
+    background-color: var(--color-secundary);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+}
+

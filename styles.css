@@ -1,0 +1,16 @@
+/* Importando o arquivo CSS específico para o projeto */
+
+@import url(styles/header.css);
+
+/* Definindo variáveis de cores para o tema do site */
+:root {
+    --color-primary: #667085;
+    --color-secundary: #8E2424;
+}
+
+/* Estilos globais para o corpo do documento */
+body {
+    font-size: 16px;
+}
+
+
