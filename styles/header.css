@@ -14,13 +14,16 @@ nav {
     list-style: none;
     color: var(--color-primary);
     text-decoration: none;
+    margin-right: 2rem;
 }
 
 .header__buttons {
     display: flex;
     align-items: center;
     gap: 2em;
-    margin-left: 2em;
+    padding: 0.8rem 1rem;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .header__button-secundary, .header__button {

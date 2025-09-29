@@ -1,16 +1,21 @@
 /* Importando o arquivo CSS específico para o projeto */
 
 @import url(styles/header.css);
+@import url(styles/hero.css);
+@import url(styles/metrics.css);
 
 /* Definindo variáveis de cores para o tema do site */
 :root {
     --color-primary: #667085;
     --color-secundary: #8E2424;
+    --color-title: #101828;
 }
 
 /* Estilos globais para o corpo do documento */
 body {
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 

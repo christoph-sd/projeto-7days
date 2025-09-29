@@ -1,0 +1,27 @@
+.section__hero {
+    padding: 6em 2em;
+}
+
+.section__hero-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    
+}
+
+.section__hero-subtitle {
+    color: var(--color-secundary);
+    font-weight: 600;
+}
+
+.section__hero-title {
+    color: var(--color-title);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.section__hero-content {
+    font-weight: 400;
+    font-size: 20px;
+}

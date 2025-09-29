@@ -1,0 +1,33 @@
+.section__metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 4em 2em;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section__metrics-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.section__metrics-number {
+    color: var(--color-secundary);
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.section__metrics-title {
+    color: var(--color-title);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.section__metrics-description {
+    color: var(--color-primary);
+    font-weight: 400;
+
+}
