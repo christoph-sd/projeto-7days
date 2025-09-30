@@ -3,11 +3,13 @@
 @import url(styles/header.css);
 @import url(styles/hero.css);
 @import url(styles/metrics.css);
+@import url(styles/banner.css);
 
 /* Definindo variáveis de cores para o tema do site */
 :root {
     --color-primary: #667085;
-    --color-secundary: #8E2424;
+    --color-secundary: #8e2424;
+    --color-secundary-rgba: rgba(142, 36, 36, 0.05);  /* Cor com 5% de opacidade */
     --color-title: #101828;
 }
 

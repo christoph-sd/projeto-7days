@@ -1,0 +1,43 @@
+.section__banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 6em;
+    margin: 0 auto;
+}
+
+.section__banner-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.section__banner-subtitle {
+    display: inline-block;
+    color: var(--color-secundary);
+    background-color: var(--color-secundary-rgba);
+    padding: 4px 12px 4px 12px;
+    border-radius: 16px;
+}
+
+.section__banner-title {
+    font-size: 2.25em;
+    color: var(--color-title);
+}
+
+.section__banner-description {
+    font-weight: 400;
+    font-size: 1.5em;
+    color: var(--color-primary);
+
+}
+
+.section__banner-image {
+    margin-top: 4em;
+    width: 100%;   /* força ocupar toda a largura do pai */
+    height: auto;  /* mantém proporção */
+    display: block; /* remove gap de linha inline */
+}
