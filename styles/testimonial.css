@@ -1,0 +1,46 @@
+.section__testimonial {
+    display: flex;
+    width: auto;
+    margin: 3em 5em;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section__testimonial-div {
+    background-color: var(--color-secundary-rgba);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em;
+}
+
+.section__testimonial-person {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+}
+/*Apenas para acelerar o processo condensando linhas */
+.section__testimonial-info {
+    font: 600 14px;
+    color: var(--color-secundary);
+}
+
+.section__testimonial-title {
+    font: 500 36px;
+    color: var(--color-title);
+}
+
+.testimonial-avatar {
+    border-radius: 50%;
+}
+
+.section__testimonial-name {
+    font: 500 16px;
+    color: var(--color-title); 
+}
+
+.section__testimonial-job {
+    font: 400 14px;
+    color: var(--color-primary);
+}

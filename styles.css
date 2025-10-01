@@ -5,6 +5,7 @@
 @import url(styles/metrics.css);
 @import url(styles/banner.css);
 @import url(styles/vagas.css);
+@import url(styles/testimonial.css);
 
 /* Definindo variáveis de cores para o tema do site */
 :root {
