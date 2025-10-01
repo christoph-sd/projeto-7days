@@ -1,0 +1,42 @@
+.section__vagas {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.section__vagas-area {
+    margin-top: 2em;
+}
+
+.section__vagas-div {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-top: 2em;
+}
+
+.section__vagas-info {
+    margin-top: 1.5em;
+}
+
+.section__vagas-area {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-title);
+    line-height: 30px;
+}
+
+.section__vagas-job {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--color-title);
+}
+
+.section__vagas-info, .modo {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-primary);
+    margin-right: 4em;
+}
