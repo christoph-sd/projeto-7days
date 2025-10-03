@@ -27,7 +27,8 @@
 }
 
 .section__testimonial-title {
-    font: 500 36px;
+    font-size: 36px;
+    font-weight: 500;
     color: var(--color-title);
 }
 

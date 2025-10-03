@@ -6,6 +6,7 @@
 @import url(styles/banner.css);
 @import url(styles/vagas.css);
 @import url(styles/testimonial.css);
+@import url(styles/footer.css);
 
 /* Definindo variáveis de cores para o tema do site */
 :root {
@@ -13,6 +14,8 @@
     --color-secundary: #8e2424;
     --color-secundary-rgba: rgba(142, 36, 36, 0.05);  /* Cor com 5% de opacidade */
     --color-title: #101828;
+    --color-footer: #F9FAFB;
+    --font-familiy: 'Inter', sans-serif;
 }
 
 /* Estilos globais para o corpo do documento */
